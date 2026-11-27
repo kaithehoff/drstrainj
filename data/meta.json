@@ -1,0 +1,128 @@
+{
+  "generated_et": "Thursday, Nov 26, 2026, about 10:30 PM ET (America/New_York)",
+  "date": "11-26-2026",
+  "account": "user-Google-drive (Kai Hoffman / strainjconsulting)",
+  "roots": [
+    {
+      "key": "tango",
+      "files": 2675,
+      "file_instances": 2675,
+      "bytes": 83332274419,
+      "bytes_human": "77.61 GiB",
+      "walked_folders": 59,
+      "unwalked_child_folders": 427,
+      "id": "1hti0NR3a7TLpLUvR5jFgFAis1_TyKEXZ",
+      "name": "ALL ACCESS TANGO NEUTRALIZED ~ FOLDER MADE 10-11-2026",
+      "url": "https://drive.google.com/drive/folders/1hti0NR3a7TLpLUvR5jFgFAis1_TyKEXZ"
+    },
+    {
+      "key": "debt",
+      "files": 105,
+      "file_instances": 105,
+      "bytes": 592697445,
+      "bytes_human": "565.2 MiB",
+      "walked_folders": 7,
+      "unwalked_child_folders": 6,
+      "id": "1TF151F8TVBLaCmF7T1nBeDELvYKsp3zI",
+      "name": "DEA DOC THREAD: Debt Deflation Plan: 19-Year $8x Currency Surge",
+      "url": "https://drive.google.com/drive/folders/1TF151F8TVBLaCmF7T1nBeDELvYKsp3zI"
+    },
+    {
+      "key": "submission",
+      "files": 40,
+      "file_instances": 40,
+      "bytes": 982143761,
+      "bytes_human": "936.6 MiB",
+      "walked_folders": 1,
+      "unwalked_child_folders": 21,
+      "id": "1uh9uNN34LKQWZfVX_JbfizYzDjECIvil",
+      "name": "DEA CANNABIS BIG FINAL SUBMISSION 5-19-26",
+      "url": "https://drive.google.com/drive/folders/1uh9uNN34LKQWZfVX_JbfizYzDjECIvil"
+    },
+    {
+      "key": "grokbot",
+      "files": 354,
+      "file_instances": 354,
+      "bytes": 10152792412,
+      "bytes_human": "9.46 GiB",
+      "walked_folders": 26,
+      "unwalked_child_folders": 52,
+      "id": "1hW9ueYGfRJ-gkGsmrSXgI1wwC_kHqcmi",
+      "name": "GROK/BOT/Cursor/GitHub",
+      "url": "https://drive.google.com/drive/folders/1hW9ueYGfRJ-gkGsmrSXgI1wwC_kHqcmi"
+    }
+  ],
+  "drive_unique_files": 3174,
+  "drive_unique_bytes": 95059908037,
+  "drive_unique_bytes_human": "88.53 GiB",
+  "drive_file_instances": 3174,
+  "unwalked_folder_cards": 506,
+  "usb": {
+    "real_files": 1541,
+    "matched_files": 935,
+    "matched_bytes": 16546785993,
+    "matched_bytes_human": "15.41 GiB",
+    "matched_names": 366,
+    "only_files": 606,
+    "only_bytes": 7818602713,
+    "only_bytes_human": "7.28 GiB",
+    "only_groups": [
+      {
+        "name": "DEA CANNABIS RESCHEDULING HEARING DECEMBER 2nd 2024 - SUBMISSIONS JULY 21st 2024 ",
+        "count": 46,
+        "bytes": 4435568096,
+        "bytes_human": "4.13 GiB"
+      },
+      {
+        "name": "XXXX~ FINISHING TOUCHES - 09172026-09142026 ",
+        "count": 196,
+        "bytes": 1139825914,
+        "bytes_human": "1.06 GiB"
+      },
+      {
+        "name": "Scott Bessent - AML:FinCEN:Section 311:Pɑtriot Act Title III; IEEPA nɑtionɑl-security protocols; relɑted NSLs for records DOGE DEA Packages ~ 10-29-2026",
+        "count": 253,
+        "bytes": 1131507227,
+        "bytes_human": "1.05 GiB"
+      },
+      {
+        "name": "FAT MAN 11-13-2026",
+        "count": 32,
+        "bytes": 309774339,
+        "bytes_human": "295.4 MiB"
+      },
+      {
+        "name": "3 ~ PRINTABLE - Patent_Approval_3_9_29_26 ~ strainj - DOC #3 is the actual Patent copy",
+        "count": 32,
+        "bytes": 285863790,
+        "bytes_human": "272.6 MiB"
+      },
+      {
+        "name": "Contract Safe Breech Pure Evidence ~ Strainj Eminent Domain Paper work my hand written old english past tense and Grok (28 U.S.C. 1498) copy",
+        "count": 18,
+        "bytes": 261411467,
+        "bytes_human": "249.3 MiB"
+      },
+      {
+        "name": "NDAS and important pics",
+        "count": 8,
+        "bytes": 236857936,
+        "bytes_human": "225.9 MiB"
+      },
+      {
+        "name": "Patent_Approval ONLY PDFS & SINGLES _3_9_29_26 ~ strainj - DOC #3 is the actual Patent",
+        "count": 21,
+        "bytes": 17793944,
+        "bytes_human": "17.0 MiB"
+      }
+    ]
+  },
+  "caveats": {
+    "continuously_updating_paginated": true,
+    "continuously_updating_files_so_far": 970,
+    "high_times_month_folders_unwalked": true,
+    "high_times_note": "High Times 1974-2001 year folders were listed; individual month/issue folders are included as openable Drive folder cards, but the PDFs inside those month folders were not individually enumerated.",
+    "unwalked_child_folders_total": 506,
+    "desktop_dea_grandchildren": "DESKTOP DEA for cover letter (Drive copy of the USB packet) had its 11 top-level folders listed; some deeper subfolders remain as folder cards."
+  }
+}
