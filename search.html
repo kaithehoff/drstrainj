@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark">
+  <meta name="theme-color" content="#06070a">
+  <title>Search · DEA Document Archive</title>
+  <link rel="icon" href="./assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./assets/style.css">
+  <script src="./assets/app.js" defer></script>
+</head>
+<body data-page="search">
+  <a class="skip" href="#content">Skip to content</a>
+  <div class="ambient" aria-hidden="true"></div>
+  <header class="site-nav">
+    <a class="brand" href="./index.html">DEA Document Archive</a>
+    <nav aria-label="Primary">
+      <a href="./index.html">Home</a>
+      <a href="./cover.html">Cover Sheet</a>
+      <a href="./folders.html">Folders</a>
+      <a href="./search.html" aria-current="page">Search</a>
+    </nav>
+  </header>
+  <main id="content" class="wrap">
+    <header class="hero">
+      <p class="kicker">
+        <span>Archive search</span>
+        <span>11-26-2026</span>
+      </p>
+      <h1>Search the catalog</h1>
+      <p class="subhead">Client-side search of the 3,174 linked Drive files, the folder links, and the USB rows that are not on Drive yet. Drive hits open the real file or folder. USB-only rows have no Drive link.</p>
+    </header>
+    <form class="controls" id="search-form" role="search">
+      <label class="field" for="q">Filename or path
+        <input id="q" name="q" type="search" placeholder="Search filename or path" autocomplete="off" spellcheck="false" enterkeyhint="search">
+      </label>
+      <div class="row">
+        <label class="field" for="source-filter">Record set
+          <select id="source-filter">
+            <option value="all">Drive files, folder links, and USB-only</option>
+            <option value="drive">Drive files</option>
+            <option value="folders">Folder links</option>
+            <option value="usb">Not on Drive yet</option>
+          </select>
+        </label>
+        <label class="field" for="pillar-filter">Drive root
+          <select id="pillar-filter">
+            <option value="all">All Drive roots</option>
+          </select>
+        </label>
+        <label class="field" for="folder-filter">Folder
+          <select id="folder-filter">
+            <option value="">All folders</option>
+          </select>
+        </label>
+      </div>
+      <div class="row">
+        <label class="field" for="ext-filter">Extension
+          <select id="ext-filter">
+            <option value="">All extensions</option>
+          </select>
+        </label>
+        <label class="check" for="usb-flag">
+          <input id="usb-flag" type="checkbox">
+          Drive files flagged USB-verified
+        </label>
+        <button class="ghost" type="button" id="search-clear">Clear</button>
+      </div>
+      <div class="chip-row" id="type-filters">
+        <button type="button" data-kind="All" aria-pressed="true">All</button>
+        <button type="button" data-kind="PDF" aria-pressed="false">PDF</button>
+        <button type="button" data-kind="Video" aria-pressed="false">Video</button>
+        <button type="button" data-kind="Image" aria-pressed="false">Image</button>
+        <button type="button" data-kind="Document" aria-pressed="false">Document</button>
+        <button type="button" data-kind="Audio" aria-pressed="false">Audio</button>
+        <button type="button" data-kind="Other" aria-pressed="false">Other</button>
+        <button type="button" data-kind="Folder" aria-pressed="false">Folder</button>
+      </div>
+      <p class="hint">The USB-verified flag is the catalog field on a Drive file. The separate cross-reference total of USB files matched by normalized name is on the home page. “Not on Drive yet” rows are USB-only and do not have a Drive link.</p>
+    </form>
+    <p class="results-meta" id="results-meta" aria-live="polite">Loading the catalog…</p>
+    <div id="results" class="hits">
+      <p class="loading">Loading search index…</p>
+    </div>
+    <noscript>
+      <p class="empty">JavaScript is required to search ./data/files.json, ./data/folders.json, and ./data/usb.json.</p>
+    </noscript>
+  </main>
+  <footer class="site-foot">
+    <div class="wrap">
+      <p>Inventory generated Thursday, Nov 26, 2026, about 10:30 PM ET (America/New_York). Catalog date 11-26-2026. Drive was read-only. This site stores the index only. Catalog JSON: <a href="./data/meta.json">meta</a>, <a href="./data/files.json">files</a>, <a href="./data/folders.json">folders</a>, <a href="./data/usb.json">usb</a>.</p>
+      <p>Drive roots:
+        <a href="https://drive.google.com/drive/folders/1hti0NR3a7TLpLUvR5jFgFAis1_TyKEXZ" target="_blank" rel="noopener">ALL ACCESS TANGO NEUTRALIZED ~ FOLDER MADE 10-11-2026</a> ·
+        <a href="https://drive.google.com/drive/folders/1TF151F8TVBLaCmF7T1nBeDELvYKsp3zI" target="_blank" rel="noopener">DEA DOC THREAD: Debt Deflation Plan: 19-Year $8x Currency Surge</a> ·
+        <a href="https://drive.google.com/drive/folders/1uh9uNN34LKQWZfVX_JbfizYzDjECIvil" target="_blank" rel="noopener">DEA CANNABIS BIG FINAL SUBMISSION 5-19-26</a> ·
+        <a href="https://drive.google.com/drive/folders/1hW9ueYGfRJ-gkGsmrSXgI1wwC_kHqcmi" target="_blank" rel="noopener">GROK/BOT/Cursor/GitHub</a>
+      </p>
+    </div>
+  </footer>
+</body>
+</html>

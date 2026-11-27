@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark">
+  <meta name="theme-color" content="#06070a">
+  <title>Folders · DEA Document Archive</title>
+  <link rel="icon" href="./assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./assets/style.css">
+  <script src="./assets/app.js" defer></script>
+</head>
+<body data-page="folders">
+  <a class="skip" href="#content">Skip to content</a>
+  <div class="ambient" aria-hidden="true"></div>
+  <header class="site-nav">
+    <a class="brand" href="./index.html">DEA Document Archive</a>
+    <nav aria-label="Primary">
+      <a href="./index.html">Home</a>
+      <a href="./cover.html">Cover Sheet</a>
+      <a href="./folders.html" aria-current="page">Folders</a>
+      <a href="./search.html">Search</a>
+    </nav>
+  </header>
+  <main id="content" class="wrap">
+    <header class="hero">
+      <p class="kicker">
+        <span>Folder browser</span>
+        <span>11-26-2026</span>
+      </p>
+      <h1>Folder-grouped archive</h1>
+      <p class="subhead">The four Drive roots, the walked folders inside them, and every folder link whose contents were not individually enumerated. Counts and sizes come from the files recorded in the catalog. Each file and folder link opens on Google Drive.</p>
+    </header>
+    <form class="controls" id="folder-filters" role="search">
+      <div class="row">
+        <label class="field" for="pillar-filter">Drive root
+          <select id="pillar-filter">
+            <option value="all">All four Drive roots</option>
+          </select>
+        </label>
+        <label class="field" for="folder-q">Folder or file name
+          <input id="folder-q" type="search" placeholder="Filter by name or path" autocomplete="off" spellcheck="false" enterkeyhint="search">
+        </label>
+        <button class="ghost" type="button" id="folder-clear">Clear</button>
+      </div>
+      <p class="hint">Open a folder to list its files and folder links. A name filter lists matching files and folder links under each Drive root.</p>
+    </form>
+    <p class="results-meta" id="results-meta" aria-live="polite">Loading folders…</p>
+    <div id="catalog">
+      <p class="loading">Loading the folder catalog…</p>
+    </div>
+    <noscript>
+      <p class="empty">JavaScript is required to browse ./data/files.json and ./data/folders.json.</p>
+    </noscript>
+  </main>
+  <footer class="site-foot">
+    <div class="wrap">
+      <p>Inventory generated Thursday, Nov 26, 2026, about 10:30 PM ET (America/New_York). Catalog date 11-26-2026. Drive was read-only. This site stores the index only. Catalog JSON: <a href="./data/meta.json">meta</a>, <a href="./data/files.json">files</a>, <a href="./data/folders.json">folders</a>, <a href="./data/usb.json">usb</a>.</p>
+      <p>Drive roots:
+        <a href="https://drive.google.com/drive/folders/1hti0NR3a7TLpLUvR5jFgFAis1_TyKEXZ" target="_blank" rel="noopener">ALL ACCESS TANGO NEUTRALIZED ~ FOLDER MADE 10-11-2026</a> ·
+        <a href="https://drive.google.com/drive/folders/1TF151F8TVBLaCmF7T1nBeDELvYKsp3zI" target="_blank" rel="noopener">DEA DOC THREAD: Debt Deflation Plan: 19-Year $8x Currency Surge</a> ·
+        <a href="https://drive.google.com/drive/folders/1uh9uNN34LKQWZfVX_JbfizYzDjECIvil" target="_blank" rel="noopener">DEA CANNABIS BIG FINAL SUBMISSION 5-19-26</a> ·
+        <a href="https://drive.google.com/drive/folders/1hW9ueYGfRJ-gkGsmrSXgI1wwC_kHqcmi" target="_blank" rel="noopener">GROK/BOT/Cursor/GitHub</a>
+      </p>
+    </div>
+  </footer>
+</body>
+</html>
